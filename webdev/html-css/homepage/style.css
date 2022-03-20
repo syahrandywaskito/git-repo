@@ -1,0 +1,67 @@
+body{
+	margin: 0;
+	font-family: "ubuntu", arial, sans-serif;
+	height: 100em;
+}
+a{
+	text-decoration: none;
+}
+/*navbar*/
+.navbar-container{
+	display: flex;
+	justify-content: center;
+	margin: 1em 0;
+	width: 100%;
+}
+.navbar-flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	width: 75%;
+}
+.bdr{
+	border: 1px solid hidden; 
+}
+.navbar-item{
+	padding: 0.75em;
+}
+.navbar-item .nav-link{
+	color: #202E24;
+	font-size: 1.25em;
+}
+.navbar-item-1{
+	margin-right: auto;
+}
+.navbar-item-1 .nav-link-1{
+
+
+	font-family: "Sofia", sans-serif;
+	color: #347A2A;
+}
+/**/
+
+/*section 1*/
+.sec-container{
+	display: flex;
+}
+.bg-image{
+	background-image: url("orchid3.jpg");
+	width: 1600px;
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: top;
+}
+.sec-grid{
+	display: grid;
+	grid-template-columns: 900px 700px;
+	grid-template-rows: 600px;
+}
+.item-2 .sub-item-2{
+	padding: 10%;
+	border: 1px solid black;
+	width: 20em;
+}
+.item-2 .sub-item-2 h2{
+	font-weight: normal;
+}
+/**/
