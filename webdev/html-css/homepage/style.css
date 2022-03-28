@@ -179,10 +179,20 @@ a{
 .sec3-container{
 	display: flex;
 	justify-content: center;
-}
-.sec3-container .bg-color{
-	background-color: #347A2A;
+	align-items: center;
+	background-image: linear-gradient(to right, #202E24 ,#347A2A);
 	width: 100%;
 	height: 400px;
+}
+.sec3-container .item-flex{
+	display: block;
+	color: white;
+	width: 75%;
+}
+.sec3-container .item-flex .cta{
+	color: #EBE8BE;
+}
+.sec3-container .item-flex .cta:hover{
+	border-bottom: 1px solid #EBE8BE;
 }
 /**/
