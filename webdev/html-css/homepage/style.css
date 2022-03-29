@@ -93,13 +93,44 @@ a{
 /**/
 
 /*section 2 tentang anggrek*/
+.sec2-header-container{
+	display: grid;
+	width: auto;
+	height: 100px;
+	grid-template-columns: repeat(8, 1fr);
+	grid-template-rows: 1fr;
+	margin: 5rem 0 1.5rem 0;
+}
+.sec2-header-container .grid-item-1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	grid-column-start: 2;
+	grid-column-end: 8;
+}
+.sec2-header-container .grid-item-1 .header{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+	color: #347A2A;
+}
+.sec2-header-container .grid-item-1 .paragraph{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-left: 20px;
+	width: 50%;
+	color: #202E24;
+}
 .about-container{
 	display: grid;
 	grid-template-columns: repeat(8, 1fr);
 	grid-template-rows: repeat(3, 1fr);
 	width: auto;
 	height: auto;
-	margin: 5rem 0;
 	grid-row-gap: 50px;
 }
 .about-container .item-1{
@@ -183,6 +214,7 @@ a{
 	background-image: linear-gradient(to right, #202E24 ,#347A2A);
 	width: 100%;
 	height: 400px;
+	margin: 5rem 0;
 }
 .sec3-container .item-flex{
 	display: block;
