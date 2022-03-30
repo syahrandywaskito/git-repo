@@ -1,7 +1,6 @@
 body{
 	margin: 0;
 	font-family: "ubuntu", arial, sans-serif;
-	height: 200em;
 }
 a{
 	text-decoration: none;
@@ -36,7 +35,7 @@ a{
 	font-size: 1.25em;
 }
 .navbar-container .navbar-item .cta:hover{
-	border-bottom: 2px solid #202E24;
+	color: #347A2A;
 }
 .navbar-item-1{
 	margin-right: auto;
@@ -281,7 +280,7 @@ a{
 	background-image: linear-gradient(to right, #202E24 ,#347A2A);
 	width: 100%;
 	height: 400px;
-	margin: 5rem 0;
+	margin: 6rem 0 0 0;
 }
 .sec3-container .item-flex-1{
 	display: flex;
@@ -290,10 +289,10 @@ a{
 	color: white;
 }
 .sec3-container .item-flex-1 .cta{
-	color: #fcfad2;
+	color: #fffddb;
 }
 .sec3-container .item-flex-1 .cta:hover{
-	border-bottom: 1px solid #fcfad2;
+	border-bottom: 1px solid #fffddb;
 }
 .sec3-container .item-flex-2{
 	display: flex;
@@ -314,6 +313,7 @@ a{
 	grid-template-rows: 400px;
 	width: 100%;
 	height: 400px;
+	margin: 9rem 0 0 0;
 }
 .contact-container .item1{
 	display: flex;
@@ -351,7 +351,115 @@ a{
 	align-items: center; 
 	color: #fffddb;
 }
+.contact-container .item1 .subitem1 .item-grid .flex a:hover{
+	color: #347A2A;
+}
 .contact-container .item1 .subitem1 .item-grid .flex a .material-icons{
 	margin-right: 20px;
+}
+.contact-container .item2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.contact-container .item2 .subitem2{
+	width: 50%;
+	padding: 2.5rem;
+	border: 0.3rem solid #347A2A;
+	border-radius: 30px;
+}
+.contact-container .item2 .subitem2 form{
+	display: flex;
+	flex-direction: column;
+}
+.contact-container .item2 .subitem2 form h2{
+	margin: 0 0 0.4rem 0;
+	color: #347A2A;
+}
+.contact-container .item2 .subitem2 form label{
+	margin: 1rem 0 0.2rem 0;
+	color: #347A2A;
+}
+.contact-container .item2 .subitem2 form button{
+	margin: 1rem 0 0 0;
+	padding: 7px;
+	border-radius: 50px;
+	border: 2px solid #347A2A;
+	color: #fffddb;
+	font-size: 1rem;
+	background-color: #347A2A;
+}
+.contact-container .item2 .subitem2 form button:hover{
+	background-color: #fffddb;
+	color: #347A2A;
+	border: 2px solid #fffddb;
+	transition-duration: 0.3s;
+}
+.contact-container .item2 .subitem2 form .input{
+	border-radius: 5px;
+	outline: none;
+	border: 2px solid #347A2A;
+	color: #347A2A;
+}
+.contact-container .item2 .subitem2 form .input:hover{
+	border: 2px solid #202E24;
+}
+.contact-container .item2 .subitem2 form .input:focus{
+	border: 2px solid #202E24;
+}
+.contact-container .item2 .subitem2 form .hi{
+	height: 1.2rem;
+}
+/**/
+
+/*footer*/
+.footer-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 400px;
+	width: 100%;
+	background-color: #347A2A;
+	margin: 9rem 0 0 0;
+}
+.footer-container .item-grid1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer-container .item-grid1 .subitem1 img{
+	width: 200px;
+	border-radius: 30px;
+}
+.footer-container .item-grid2{
+	display: flex;
+	align-items: center;
+}
+.footer-container .item-grid2 .subitem2 h2 .link{
+	font-family: "Sofia", arial, sans-serif;
+	font-size: 2rem;
+	color: #fffddb;
+}
+.footer-container .item-grid2 .subitem2 .grid{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: 20px;
+	grid-column-gap: 30px;
+}
+.footer-container .item-grid2 .subitem2 .grid a{
+	color: #fffddb;
+}
+.footer-container .item-grid2 .subitem2 p{
+	color: #fffddb;
+	margin: 3rem  0 0 0;
+}
+.footer-container .item-grid2 .subitem2 p a{
+	color: #fffddb;
+}
+.footer-container .item-grid2 .subitem2 .grid a:hover{
+	border-bottom: 2px solid #fffddb;
+}
+.footer-container .item-grid2 .subitem2 p a:hover{
+	border-bottom: 2px solid #fffddb;
 }
 /**/
